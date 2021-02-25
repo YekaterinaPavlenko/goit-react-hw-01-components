@@ -1,3 +1,9 @@
+.App {
+  background-color: bisque;
+}
+.title {
+  text-align: center;
+}
 /* Посмотреть попозже стили какие применяются, что интересное */
 /* .App {
   text-align: center;

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.statistics {
+  width: 360px;
+  margin: 20px auto;
+
+  background-color: white;
+  text-align: center;
+}
+.title {
+  margin-top: 0;
+  padding-top: 20px;
+}
+.statList {
+  display: flex;
+  width: 100%;
+
+  margin: auto;
+  background-color: white;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 5);
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px rgb(54, 53, 53);
+}
