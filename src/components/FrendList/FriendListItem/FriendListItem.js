@@ -1,11 +1,11 @@
 import React from 'react';
-import s from './FriendList.module.css';
+import s from './FriendListItem.module.css';
 import PropTypes from 'prop-types';
-import defaultImage from './defaultImage.svg';
+import defaultImage from '../../../images/defaultImage.svg';
 
 const FriendListItem = function ({ avatar, name, isOnline, id }) {
   return (
-    <li key={id} className={s.item}>
+    <li className={s.item}>
       <span className={isOnline ? s.statusOnline : s.statusOffline}></span>
       <img className={s.avatar} src={avatar} alt={name} width="48" />
       <p className={s.name}>{name}</p>
