@@ -3,7 +3,7 @@ import s from './FriendListItem.module.css';
 import PropTypes from 'prop-types';
 import defaultImage from '../../../images/defaultImage.svg';
 
-const FriendListItem = function ({ avatar, name, isOnline, id }) {
+const FriendListItem = function ({ avatar, name, isOnline}) {
   return (
     <li className={s.item}>
       <span className={isOnline ? s.statusOnline : s.statusOffline}></span>
